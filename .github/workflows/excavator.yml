@@ -1,0 +1,20 @@
+# Checks the GitHub releases of the apps every few hours and updates the manifests (checkver + autoupdate).
+name: Excavator
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  excavate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ScoopInstaller/GithubActions@5bceeda181721d9d10a18fdcc3ddca6f33467ae6 # v3.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: "1"
