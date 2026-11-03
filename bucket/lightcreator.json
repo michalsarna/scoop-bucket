@@ -1,12 +1,12 @@
 {
-    "version": "0.5.7",
+    "version": "0.5.8",
     "description": "LightCreator: laser engraver and cutter design and control software",
     "homepage": "https://github.com/michalsarna/LightCreator",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/michalsarna/LightCreator/releases/download/v0.5.7/lightcreator-v0.5.7-windows-x86_64.zip",
-            "hash": "41c46dcdc783b36372d3b3d5aae0b5ee0b35183370ac4b917a1f4e22299b9045"
+            "url": "https://github.com/michalsarna/LightCreator/releases/download/v0.5.8/lightcreator-v0.5.8-windows-x86_64.zip",
+            "hash": "ca1d94e7a7c310a82b935459e226dc8139b7f4a8ca6bc917c414c2a242dda5a2"
         }
     },
     "bin": "lightcreator.exe",
