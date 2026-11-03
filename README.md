@@ -1,10 +1,10 @@
 # Scoop bucket for the Creator apps
 
-[LightCreator](https://github.com/michalsarna/LightCreator) (laser), [MillCreator](https://github.com/michalsarna/MillCreator) (CNC milling) and [PenCreator](https://github.com/michalsarna/PenCreator) (pen plotter) for Windows, installed with [Scoop](https://scoop.sh/).
+[LightCreator](https://github.com/michalsarna/LightCreator) (laser), [MillCreator](https://github.com/michalsarna/MillCreator) (CNC milling), [PenCreator](https://github.com/michalsarna/PenCreator) (pen plotter) and [BaseCreator](https://github.com/michalsarna/baseCreator) (drawing, with no machine) for Windows, installed with [Scoop](https://scoop.sh/).
 
 ```powershell
 scoop bucket add creator https://github.com/michalsarna/scoop-bucket
-scoop install lightcreator   # or millcreator, pencreator
+scoop install lightcreator   # or millcreator, pencreator, basecreator
 ```
 
 `scoop update *` picks up new versions. The manifests follow the GitHub releases automatically.
