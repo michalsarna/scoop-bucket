@@ -1,12 +1,12 @@
 {
-    "version": "0.8.4",
+    "version": "0.8.5",
     "description": "MillCreator: cNC milling software with toolpaths, 3D view and G-code",
     "homepage": "https://github.com/michalsarna/MillCreator",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/michalsarna/MillCreator/releases/download/v0.8.4/millcreator-v0.8.4-windows-x86_64.zip",
-            "hash": "4ec9803968af5621cb1121246822f4620f0aa7be0993a5dd560bbf421d2072b7"
+            "url": "https://github.com/michalsarna/MillCreator/releases/download/v0.8.5/millcreator-v0.8.5-windows-x86_64.zip",
+            "hash": "5f19c4b30a0c69f2ed80acb2bff579052d74ca57c783ccb5010623ad49eb5658"
         }
     },
     "bin": "millcreator.exe",
