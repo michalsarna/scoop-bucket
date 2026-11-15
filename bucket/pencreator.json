@@ -1,12 +1,12 @@
 {
-    "version": "0.9.3",
+    "version": "0.9.4",
     "description": "PenCreator: pen plotter software with pens as layers, plot preview and G-code",
     "homepage": "https://github.com/michalsarna/PenCreator",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/michalsarna/PenCreator/releases/download/v0.9.3/pencreator-v0.9.3-windows-x86_64.zip",
-            "hash": "3579b4f598f57a7f41406e5206bd2aa0f8cb2733de7bcf1235fb38d675669083"
+            "url": "https://github.com/michalsarna/PenCreator/releases/download/v0.9.4/pencreator-v0.9.4-windows-x86_64.zip",
+            "hash": "3475df9a804be6c6cb18427da9f585d5bf4e21b235dc928603eb0af8f637c317"
         }
     },
     "bin": "pencreator.exe",
