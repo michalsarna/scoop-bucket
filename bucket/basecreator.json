@@ -1,12 +1,12 @@
 {
-    "version": "2.4.0",
+    "version": "2.7.0",
     "description": "BaseCreator: a drawing program that writes the project files of the Creator apps",
     "homepage": "https://github.com/michalsarna/baseCreator",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/michalsarna/baseCreator/releases/download/v2.4.0/basecreator-v2.4.0-windows-x86_64.zip",
-            "hash": "33a152501ed669b95716a9ad3c46f5aaa56c2556d675bae0c5a37e4afc65cf5c"
+            "url": "https://github.com/michalsarna/baseCreator/releases/download/v2.7.0/basecreator-v2.7.0-windows-x86_64.zip",
+            "hash": "a75ec9f2146e6e6f3c945c9e2cb562813f411bb21ff8ac9a954982a4c0d98b3e"
         }
     },
     "bin": "basecreator.exe",
